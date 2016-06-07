@@ -1,4 +1,4 @@
-<?php namespace Modules\Izwidget\Providers;
+<?php namespace Modules\IzWidget\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
