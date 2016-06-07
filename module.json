@@ -1,0 +1,15 @@
+{
+    "name": "IzWidget",
+    "alias": "izwidget",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\IzWidget\\Providers\\IzWidgetServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "start.php"
+    ]
+}
