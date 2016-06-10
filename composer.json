@@ -1,15 +1,26 @@
 {
-	"name": "pingpong-modules/izwidget",
-	"description": "",
+	"name": "vjcspy/izwidget",
+	"vendor":"laravel-pingpong-modules",
+	"type": "magento-library",
+	"description": "Module Widget",
 	"authors": [
 		{
 			"name": "Khoi Le",
 			"email": "mr.vjcspy@gmail.com"
 		}
 	],
+	"require": {
+		"php": ">=5.5.9"
+	},
 	"autoload": {
 		"psr-4": {
 			"Modules\\IzWidget\\": ""
+		}
+	},
+	"extra": {
+		"installer-name": "IzWidget",
+		"installer-paths": {
+			"modules/{$name}/": ["type:magento-library"]
 		}
 	}
 }
